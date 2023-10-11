@@ -18,14 +18,14 @@ public class Segitiga29 {
     if (totalSudut == 180) {
         if ((sudut1 == 90) || (sudut2 == 90)||(sudut3 == 90))
             System.out.println ("Segitiga tersebut adalah segitiga siku-siku");
-    else if (totalSudut == 190) {
-        if ((sudut1 == 70) || (sudut2 == 70)||(sudut3 == 50))
-            System.out.println ("Segitiga tersebut adalah segitiga sama kaki");
-    else (totalSudut == 100){
-        if ((sudut1 == 20) || (sudut2 == 30)||(sudut3 == 50))
-            System.out.println ("Segitiga tersebut adalah segitiga sembarang");
+        else if ((sudut1 == 60) || (sudut2 == 60)|| (sudut3 == 60))
+            System.out.println ("Segitiga tersebut adalah segitiga sama sisi");
+        else if ((sudut1 == 70) || (sudut2 == 70)|| (sudut3 == 40))
+            System.out.println ("Segitiga tersebut adalah segitiga sama kaki");    
+
     } else
+        System.out.println ("Bukan Segitiga");
+        System.out.println ("Jumlah total sudut adalah : " +totalSudut);
     
-    System.out.println ("Jumlah total sudut adalah : " +totalSudut);
     }
 }
