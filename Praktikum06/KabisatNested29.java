@@ -9,7 +9,7 @@ public class KabisatNested29 {
     System.out.print("Masukkan tahun : ");
     tahun = sc.nextInt ();
 
-    if ((tahun % 4) == 0){
+    if ((tahun % 400) == 0){
         if ((tahun % 100) != 0){
         System.out.println("Tahun Kabisat");
         } else {
