@@ -23,10 +23,12 @@ public class DoWhile29 {
 
             } else {
                 System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                break;
             }
-            } 
-        } while (jatahCuti > 0);
+            System.out.print("Apa Anda ingin melanjutkan (y/t)?" );
+        }
+            konfirmasi = sc.next();
+        } while (konfirmasi.equalsIgnoreCase("y") && jatahCuti > 0);
+            System.out.println("Program berakhir");     
     }
 }
-    
+
