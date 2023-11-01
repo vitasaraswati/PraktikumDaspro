@@ -13,6 +13,8 @@ public class ArrayNilai29 {
         for (int i = 0; i < 10; i++) {
             if (nilaiAkhir[i] > 70) {
                 System.out.println("Mahasiswa ke-" + (i+1) +  " lulus ");
+            } else {
+                System.out.println("Mahasiswa ke-" + (i+1) + " tidak lulus ");
             }
         }
     }
